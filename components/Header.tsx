@@ -2,6 +2,7 @@ import { ICONS } from '@/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import DropdownList from './DropdownList'
 
 const Header = ({ subHeader, title, userImg } : SharedHeaderProps) => {
     return (
@@ -63,7 +64,7 @@ const Header = ({ subHeader, title, userImg } : SharedHeaderProps) => {
                     />
                 </div>
 
-                {`<DropdownList />`}
+                <DropdownList />
             </section>
         </header>
     )
