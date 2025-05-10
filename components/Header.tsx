@@ -14,7 +14,7 @@ const Header = ({ subHeader, title, userImg } : SharedHeaderProps) => {
                             alt='User'
                             width={66}
                             height={66}
-                            className='rouned-full'
+                            className='rounded-full'
                         />
                     )}
 
