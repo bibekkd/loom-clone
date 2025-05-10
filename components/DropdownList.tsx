@@ -28,7 +28,7 @@ const DropdownList = () => {
                 </div>
             </div>
 
-            {isOpen && (
+            { isOpen && (
                 <ul className='dropdown'>
                     {['Most recent', 'Most liked'].map((option) => (
                         <li key={option} className='list-item'>
@@ -37,6 +37,7 @@ const DropdownList = () => {
                     ))}
                 </ul>
             )}
+
         </div>
     )
 }
