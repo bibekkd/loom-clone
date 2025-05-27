@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Bibek-Kumar-Dey-s-workspace-it5d2a.us-east-1.xata.sh/db/snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
